@@ -9,10 +9,10 @@ import { Subscriber } from 'rxjs/Subscriber';
   styleUrls: ['./product-description.component.css']
 })
 export class ProductDescriptionComponent implements
-// albumInfo,
+albumInfo;
 
 OnInit {
-  albumInfo: any;
+
 
   constructor(private _productService: ProductService) { }
 
