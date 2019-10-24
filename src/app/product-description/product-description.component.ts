@@ -8,12 +8,9 @@ import { Subscriber } from 'rxjs/Subscriber';
   templateUrl: './product-description.component.html',
   styleUrls: ['./product-description.component.css']
 })
-export class ProductDescriptionComponent implements
-albumInfo;
+export class ProductDescriptionComponent implements OnInit {
 
-OnInit {
-
-
+  albumInfo;
   constructor(private _productService: ProductService) { }
 
   ngOnInit() {
